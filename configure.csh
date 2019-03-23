@@ -26,4 +26,9 @@ done
 
 # install dotfiles
 pushd ~/dotfiles
-stow -t ${HOME} vim bash sqlite tmux gdb
+stow -t ${HOME} vim bash sqlite tmux gdb jrnl
+
+# configure git
+git config --global user.email "contractdesign@gmail.com"
+git config --global user.name "CD"
+   59  history | grep 'git config' > t
