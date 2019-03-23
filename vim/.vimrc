@@ -4,8 +4,12 @@ colo elflord
 " show statusbar
 set laststatus=2
 
+" highlight search terms
+set hlsearch
 
+"
 " options for Python
+"
 " see https://stackoverflow.com/questions/65076/how-to-setup-vim-autoindentation-properly-for-editing-python-files-py
 syntax on
 set showmatch
