@@ -38,3 +38,5 @@ autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab
 
 " automatically recognize markdown files
 au BufNewFile,BufRead *.md setf markdown
+
+set tw=80
