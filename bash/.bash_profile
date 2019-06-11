@@ -3,6 +3,7 @@
 
 # set readline mode to vi instead of emacs
 set -o vi
+export EDITOR=vim
 
 #
 # aliases
