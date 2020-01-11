@@ -22,3 +22,10 @@ function dka() {
         docker kill $id
     done
 }
+
+#
+# useful aliases
+#
+
+alias psg="ps -ef | grep -i $1"
+alias nsg="netstat -natp | grep -i $1"
