@@ -10,9 +10,9 @@
        password: changeme
        append: yes
 
-    - name: Disable user's password
-      shell:
-         cmd: passwd -d user
-    - name: Expire user's password
-      shell:
-         cmd: passwd -e user
+  - name: Disable user's password
+    shell:
+       cmd: passwd -d user
+  - name: Expire user's password
+    shell:
+       cmd: passwd -e user
